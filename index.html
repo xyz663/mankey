@@ -1,35 +1,278 @@
-<html>
+<html lang="zh">
  <head> 
- <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
- <title>获取QQ头像小程序</title>
- <style>
- img{
-    width:350px;
-    height:350px;
-    }
-body{
-background-color:red;
+  <meta charset="UTF-8"> 
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <title>电子木鱼</title> 
+  <link rel="stylesheet" href="css/index.css"> 
+  <script>
+  *{
+	margin: 0;
+	padding: 0;
 }
- </style>
- </head>
- <body>
-  
-   <h1><img src="" alt="老马这个屌毛天天打扰我，害我的背景图没了"/></h1>
-   <button onclick="b()">输入QQ号</button>
-   <button onclick="a()">保存图片</button>
+#content{
+	width: 100vw;
+	height: 100vh;
+}
+.page{
+	display: none;
+	position: absolute;
+	width: 100vw;
+	height: 100vh;
+}
+.bg{
+	display: block;
+	background: black;
+	z-index: -1;
+}
+.loading{
+	color: white;
+	text-align: center;
+}
+@keyframes fish{
+	100%{
+		transform: scale(1.1);
+	}
+}
+.fish{
+	margin-top: 14.4678vh;
+	width: 30.6667vw;
+	animation: fish 0.3s infinite alternate;
+}
+.loading h2{
+	font-size: 10vw;
+	margin-top: 13.0435vh;
+}
+.loading p{
+	font-size: 7vw;
+	margin-top: 6.2219vh;
+}
 
+
+.page1{
+	
+}
+.page1 img{
+	position: absolute;
+}
+@keyframes fo{
+	0%{
+		margin-top: -50vh;
+	}
+	100%{
+		margin-top: 23.0135vh;
+	}
+}
+.fo{
+	left: 0;
+	right: 0;
+	margin: auto;
+	width: 73.0667vw;
+	animation: fo 2s forwards;
+}
+.t{
+	width: 44.8000vw;
+}
+@keyframes trans1{
+	0%{
+		left: -60vw;
+	}
+	100%{
+		left: 5.6000vw;
+	}
+}
+@keyframes trans2{
+	0%{
+		left: 150vw;
+	}
+	100%{
+		left: 42.2667vw;
+	}
+}
+.t1{
+	top: 7.1964vh;
+	animation: trans1 2s forwards;
+}
+.t2{
+	top: 16.1919vh;
+	animation: trans2 2s forwards;
+}
+.t3{
+	/* left: 4.4000vw; */
+	top: 43.1784vh;
+	animation: trans1 2s forwards;
+}
+.t4{
+	/* left: 47.3333vw; */
+	top: 66.8666vh;
+	animation: trans2 2s forwards;
+}
+.t5{
+	width: 40.0000vw;
+	left: 53.3333vw;
+	top: 34.4078vh;
+	
+}
+.start{
+	width: 21.3333vw;
+	bottom: 10.4948vh;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+@keyframes yuan{
+	100%{
+		opacity: 0;
+		transform: scale(1);
+	}
+}
+.yuan{
+	width: 28vw;
+	bottom: 8.5vh;
+	left: 0;
+	right: 0;
+	margin: auto;
+	transform: scale(0.8);
+	animation: yuan 1s infinite
+}
+@keyframes high{
+	100%{
+		opacity: 1;
+	}
+}
+
+.high{
+	opacity: 0;
+	z-index: 1;
+	width: 100vw;
+	left: -5vw;
+	animation: high 1s infinite alternate;
+}
+.page2{
+	color: white;
+}
+.page2 img{
+	position: absolute;
+}
+.page2 h2{
+	position: absolute;
+	top: 5vh;
+	left: 0;
+	right: 0;
+	text-align: center;
+}
+.page2 p{
+	position: absolute;
+	left: 9.2000vw;
+	top: 38.8831vh;
+	font-size: 5vw;
+	opacity: 0;
+}
+.mfish{
+	width: 50.6667vw;
+	left: 0;
+	right: 0;
+	margin: auto;
+	margin-top: 37.8561vh;
+}
+.hanmmer{
+	width: 30.8000vw;
+	left: 59.0667vw;
+	top: 30vh;
+	transform-origin: right bottom;
+	/* transform: rotate(-7deg); */
+}
+
+
+  </script> 
+ </head> 
+ <body id="v1"> 
+  <!--夏虫设计--> 
+  <div id="content"> 
+   <div id="v2" class="bg page"></div> 
+   <div id="v3" class="loading page" style="display: block;"> 
+    <h2 id="v4">电子木鱼</h2> 
+    <img id="v5" src="img/p1/logo.png" alt="" class="fish"> 
+    <p id="v6">33%</p> 
+   </div> 
+   <div id="v7" class="page1 page"> 
+    <img id="v8" src="https://i.imgtg.com/2022/11/30/4CUd1.png" alt="" class="high"> 
+    <img id="v9" src="https://i.imgtg.com/2022/11/30/4CUd1.png" alt="" class="fo"> 
+    <img id="v10" src="https://i.imgtg.com/2022/11/30/4CkND.png" alt="" class="t1 t"> 
+    <img id="v11" src="https://i.imgtg.com/2022/11/30/4CxEF.png" alt="" class="t2 t"> 
+    <img id="v12" src="https://i.imgtg.com/2022/11/30/4Czu6.png" alt="" class="t3 t"> 
+    <img id="v13" src="https://i.imgtg.com/2022/11/30/4CiRb.png" alt="" class="t4 t"> 
+    <img id="v14" src="https://i.imgtg.com/2022/11/30/4Cn9l.png" alt="" class="t5 t"> 
+    <img id="v15" src="https://i.imgtg.com/2022/11/30/4CTvG.png" alt="" class="yuan"> 
+    <img id="v16" src="https://i.imgtg.com/2022/11/30/4C7Ug.png" alt="" class="start"> 
+   </div> 
+   <div id="v17" class="page2 page"> 
+    <h2 id="v18" class="count">功德: 0</h2> 
+    <img id="v19" src="https://i.imgtg.com/2022/11/30/4Cq9r.png" alt="" class="mfish"> 
+    <img id="v20" src="https://i.imgtg.com/2022/11/30/4CNyB.png" alt="" class="hanmmer"> 
+    <p id="v21" class="gongde">功德+1</p> 
+   </div> 
+  </div> 
   <script>
   
-  function b(){
-  
-  let qq = prompt("请输入QQ号");
-  let url = "http://q1.qlogo.cn/g?b=qq&nk="+qq+"&s=640"
-let img = document.querySelector("img")  
-  img.src = url}
-    function a(){
-        alert("我还不会保存头像,以后的事情交给以后去做吧!!!");
-    
-    }
-  </script>
+loading()
+function loading(){
+	let i = 0
+	let timer = setInterval(()=>{
+		if(i>100){
+			page1()
+			clearInterval(timer)
+			return
+		}
+		document.querySelector('.loading p').innerHTML = i+'%'
+		
+		i++
+	},20)
+}
+
+function page1(){
+	document.querySelector('.loading').style.display = 'none'
+	document.querySelector('.page1').style.display = 'block'
+	document.querySelector('.start').onclick = function(){
+		document.querySelector('.page1').style.display = 'none'
+		document.querySelector('.page2').style.display = 'block'
+	}
+}
+
+page2()
+function page2(){
+	let count = 0
+	let mfish = document.querySelector('.mfish')
+	let hanmmer = document.querySelector('.hanmmer')
+	let gongde = document.querySelector('.gongde')
+	let counts = document.querySelector('.count')
+	document.querySelector('.page2').addEventListener('click',function(){
+		count += 1
+		counts.innerHTML = '功德:'+count 
+		mfish.animate([
+			{transform: 'scale(1)'},
+			{transform: 'scale(1.1)'},
+			{transform: 'scale(1)'}
+		],{
+			duration:500
+		})
+		
+		hanmmer.animate({
+			transform:['rotate(0deg)','rotate(-10deg)','rotate(0deg)']
+		},{
+			duration:200
+		})
+		
+		gongde.animate({
+			transform: ['translateY(0vh)','translateY(-10vh)'],
+			opacity:[0,1,0]
+		},{
+			duration:500
+		})
+		
+	})
+	
+}
+  </script>  
  </body>
 </html>
